@@ -1,0 +1,24 @@
+{
+    "name": "xinyujian\/wchat",
+    "description": "test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "奔跑的代码",
+            "email": "695527585@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Xinyujian\\Wchat\\": "src/"
+        }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Xinyujian\\Wchat\\WchatServiceProvider"
+        ]
+      }
+    }
+}
